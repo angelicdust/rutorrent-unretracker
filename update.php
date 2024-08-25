@@ -34,7 +34,7 @@ if(count($argv)>1)
 	$hash = $argv[1];
 	$req = new rXMLRPCRequest( array(		
 		new rXMLRPCCommand("get_session"),
-		new rXMLRPCCommand("d.get_custom6",$hash),
+		new rXMLRPCCommand("d.get_custom4",$hash),
 		new rXMLRPCCommand("d.get_tied_to_file",$hash),
 		new rXMLRPCCommand("d.get_custom1",$hash),
 		new rXMLRPCCommand("d.get_directory_base",$hash),
