@@ -1,0 +1,9 @@
+plugin.description: This plugin removes retracker.local tracker entries from torrents downloaded from Russian BitTorrent websites
+plugin.author: samicrusader
+plugin.version: 1.0
+rtorrent.remote: error
+rtorrent.external.error: php
+rtorrent.script.error: run.sh
+rtorrent.php.error: update.php
+plugin.help: https://github.com/angelicdust/rutorrent-unretracker
+php.extensions.warning: json
